@@ -2,6 +2,8 @@
 
 namespace devtoolboxuk\soteriautf;
 
+use devtoolboxuk\soteriautf\Resources\Resources;
+
 class Utf7 extends Resources
 {
 
