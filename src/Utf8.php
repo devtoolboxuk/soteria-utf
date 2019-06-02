@@ -3,6 +3,7 @@
 namespace devtoolboxuk\soteriautf;
 
 use devtoolboxuk\soteriautf\Resources\Resources;
+use devtoolboxuk\soteriautf\Resources\System;
 
 class Utf8 extends Resources
 {
@@ -194,7 +195,7 @@ class Utf8 extends Resources
      */
     private function getData($file)
     {
-        return include __DIR__ . '/../Data/' . $file . '.php';
+        return include __DIR__ . '/Data/' . $file . '.php';
     }
 
     /**
