@@ -1,11 +1,11 @@
 {
-  "name": "devtoolboxuk/soteriautf8",
-  "description": "UTF8 Package for Soteria",
+  "name": "devtoolboxuk/soteriautf",
+  "description": "UTF Packages for Soteria",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "devtoolboxuk\\soteriautf8\\": "src/"
+      "devtoolboxuk\\soteriautf\\": "src/"
     },
     "classmap": [
       "src"

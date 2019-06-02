@@ -1,6 +1,6 @@
 <?php
 
-namespace devtoolboxuk\soteriautf8;
+namespace devtoolboxuk\soteriautf;
 
 class Utf8 extends Resources
 {
