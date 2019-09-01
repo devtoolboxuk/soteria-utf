@@ -38,9 +38,17 @@ class System
         return extension_loaded('intl');
     }
 
+    /**
+     * PHP Version 7 onwards
+     * @return bool
+     */
     public function intlChar_loaded()
     {
-        return class_exists('IntlChar');
+        if (version_compare(PHP_VERSION, '7.0.0') >= 0) {
+            return class_exists('IntlChar');
+        }
+        return false;
+
     }
 
     public function ctype_loaded()
